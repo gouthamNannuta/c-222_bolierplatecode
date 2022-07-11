@@ -7,7 +7,7 @@ var peer = new Peer(undefined, {
 });
 
 const user = prompt("Enter your name");
-
+const username = prompt("Enter your email address")
 const myVideo = document.createElement("video");
 myVideo.muted = true;
 
